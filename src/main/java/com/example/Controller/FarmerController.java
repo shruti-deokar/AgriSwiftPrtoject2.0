@@ -26,7 +26,7 @@ public class FarmerController {
         return service.getFarmerDetails();
     }
     
-    @PostMapping("addanother")
+    @PostMapping("addanotherdetailsoffarmers")
     public Farmer addAnotherDetail(@RequestBody Farmer farmer){
         return service.addAnotherDetail(farmer);
     }
